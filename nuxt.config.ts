@@ -8,5 +8,5 @@ export default defineNuxtConfig({
   ],
   router: {
     base: '/De-Zero-a-Dev/', // Substitua pelo nome do seu repositório no GitHub
-  },
+  }
 })
