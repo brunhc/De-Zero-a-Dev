@@ -3,8 +3,8 @@
     <!-- Logotipo ou título à esquerda -->
     <div class="navbar-left">
       <a href="/">
-        <img src="~/assets/images/logo.png" alt="Logo" class="navbar-logo" />
-      </a>
+  <img :src="require('~/assets/images/logo.png')" alt="Logo" class="navbar-logo" />
+</a>
     </div>
 
     <!-- Links de navegação -->
