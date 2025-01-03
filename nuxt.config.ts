@@ -6,7 +6,7 @@ export default defineNuxtConfig({
   css: [
     '~/assets/css/global.css', // Importa o CSS global
   ],
-  router: {
-    base: '/De-Zero-a-Dev/', // Substitua pelo nome do seu repositório no GitHub
-  }
+  app: {
+    baseURL: '/De-Zero-a-Dev/', // Nome do repositório no GitHub
+  },
 })
