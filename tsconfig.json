@@ -1,4 +1,18 @@
 {
-  // https://nuxt.com/docs/guide/concepts/typescript
-  "extends": "./.nuxt/tsconfig.json"
+  "compilerOptions": {
+    "target": "ESNext", // Define o padrão para a versão mais recente do JavaScript
+    "module": "ESNext",
+    "moduleResolution": "Node",
+    "strict": true, // Ativa verificações rigorosas
+    "esModuleInterop": true,
+    "skipLibCheck": true, // Evita verificar arquivos de definição de biblioteca
+    "lib": ["ESNext", "DOM"], // Inclui suporte para `Promise` e APIs de navegador
+    "types": [] // Inclui definições de tipo específicas do Nuxt
+  },
+  
+  "include": ["."], // Inclui o diretório atual no escopo
+  "exclude": ["node_modules", ".nuxt", "dist"]
+
+  
+  
 }
